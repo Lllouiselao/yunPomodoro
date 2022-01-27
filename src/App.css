@@ -13,19 +13,57 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  background-color: rgb(231, 242, 252);
+  color: rgb(122, 187, 240);
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* title style */
+div.name {
+  font-family: 'Dongle', sans-serif;
+  font-size: 35px;
+  color: rgba(157, 206, 187, 0.925);
+}
+
+button {
+  background-color: transparent;
+  color: rgba(157, 206, 187, 0.925);
+  border: 0;
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+}
+
+button.with-text {
+  width: auto;
+  background-color: rgba(72, 127, 179, 0.103);
+  border-radius: 10px;
+  padding: 10px, 20px;
+  line-height: 36px;
+  font-size: 1.7rem;
+}
+
+button.with-text svg {
+  width: 36px;
+  float: left;
+}
+
+/* setting time style */
+label{
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  display: block;
+  color: rgb(72, 127, 179);
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-transform: capitalize;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +74,6 @@
     transform: rotate(360deg);
   }
 }
+
+/* importing Google Font */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
